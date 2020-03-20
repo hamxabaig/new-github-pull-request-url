@@ -1,6 +1,6 @@
 {
 	"name": "new-github-pull-request-url",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Create a URL for new pull requests in repo with prefilled title, body, assignee etc",
 	"license": "MIT",
 	"repository": "hamxabaig/new-github-pull-request-url",
