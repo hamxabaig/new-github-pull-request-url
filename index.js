@@ -10,9 +10,11 @@ module.exports = (options = {}) => {
 	const {title, compareTo, repo, body, assignee, base, template} = options;
 
 	ow(compareTo, ow.string.label('options.compareTo'));
-	ow(title, ow.string.label('options.title'));
 	ow(repo, ow.string.label('options.repo'));
 
+	if (title) {
+		ow(title, ow.string.label('options.title'));
+	}
 	if (body) {
 		ow(body, ow.string.label('options.body'));
 	}
