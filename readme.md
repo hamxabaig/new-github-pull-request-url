@@ -49,9 +49,9 @@ The branch to compare with base branch. (This is your feature branch)
 ##### title
 
 Type: `string`<br>
-Required: `true`
+Required: `false`
 
-The pull request title.
+The pull request title. If not provided, Github will automatically make the last commit as title
 
 ##### base
 
